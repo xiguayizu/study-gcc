@@ -1,7 +1,7 @@
 .PHONY:clean all
 CC=gcc
 CFLAGS= -Wall -g
-BIN=simple 
+BIN=simple hello bugging 
 # main
 all:$(BIN)
 %.o:%.c
