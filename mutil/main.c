@@ -24,5 +24,13 @@ int main( void )
  * */
 
 
+/*
+	.so
+	> gcc -fPIC -c hello_fn.c
+	> gcc -shared -fPIC hello.o -o libhello.so
+	> gcc -Wall -L. main.c -o h3 -lhello
 
+	export LD_LIBRARY_PATH=.
+	> ldd h3
+*/
 
